@@ -1,0 +1,74 @@
+.nav{
+    list-style-type: none;
+    text-align: center;
+    display: inline-flex;
+    margin-right: 50px;
+    float: left;
+
+}
+.nav a{
+    text-decoration: none;
+    border: outset wheat;
+    color: chocolate;
+}
+.nav a:hover{
+    color: white;
+    background-color: chocolate;
+    transition: 0.3s;
+}
+div#content div{
+    display: inline-block;
+    width: 48%;
+}
+div#content div.right{
+    vertical-align: top;
+}
+div#content div.right h1{
+    color: antiquewhite;
+}
+div#contact div{
+    display: inline-block;
+    width: 48%;
+}
+div#contact div.no{
+    vertical-align: top;
+}
+div#content{
+    background-color: #9E0E40;
+}
+
+label>u:hover{
+    color: blue;
+}
+
+footer.copy p{
+    text-align: center;
+}
+footer.btn{
+    text-align: center;
+    display: inline-flex;
+    padding-left: 160px;
+    margin-left: 70px;
+    
+}
+li.no{
+    list-style-type: none;
+}
+li.no a{
+    text-decoration: none;
+}
+li.no a:hover{
+    color: rgb(143, 28, 89);
+    transition: 0.3s;
+}
+
+footer h2{
+    padding-left: 100px;
+}
+#no{
+    text-align: right;
+    padding-right: 100px;
+    color: rgb(143, 28, 89);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
